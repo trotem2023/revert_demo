@@ -5,6 +5,10 @@ table sales
 		formatString: 0
 		lineageTag: d688d9e6-7060-4497-b553-d9dea1d5dbb1
 
+	measure Measure2 = 2+2
+		formatString: 0
+		lineageTag: 1d0d35cb-d706-49e3-b8e0-1ec81e7fe303
+
 	column Column1
 		dataType: string
 		lineageTag: e54dda5d-6573-49e1-ae1e-8775677fb0fc
