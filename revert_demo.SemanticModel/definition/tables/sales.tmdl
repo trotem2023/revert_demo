@@ -1,5 +1,9 @@
-table Table
+table sales
 	lineageTag: 2b9fd532-c311-46bc-9632-aee8967338a9
+
+	measure Measure1 = 1+1
+		formatString: 0
+		lineageTag: d688d9e6-7060-4497-b553-d9dea1d5dbb1
 
 	column Column1
 		dataType: string
@@ -9,7 +13,7 @@ table Table
 
 		annotation SummarizationSetBy = Automatic
 
-	partition Table = m
+	partition sales = m
 		mode: import
 		source =
 				let
@@ -17,6 +21,8 @@ table Table
 				    #"Changed Type" = Table.TransformColumnTypes(Source,{{"Column1", type text}})
 				in
 				    #"Changed Type"
+
+	changedProperty = Name
 
 	annotation PBI_ResultType = Table
 
