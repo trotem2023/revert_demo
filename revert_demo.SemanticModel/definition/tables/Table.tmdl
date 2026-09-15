@@ -1,6 +1,10 @@
 table Table
 	lineageTag: 2b9fd532-c311-46bc-9632-aee8967338a9
 
+	measure Measure1 = 1+1
+		formatString: 0
+		lineageTag: 6ed5fa7e-d288-45a3-b9f4-3a19bca8215f
+
 	column Column1
 		dataType: string
 		lineageTag: e54dda5d-6573-49e1-ae1e-8775677fb0fc
