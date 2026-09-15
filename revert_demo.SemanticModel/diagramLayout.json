@@ -13,7 +13,8 @@
             "x": 0,
             "y": 0
           },
-          "nodeIndex": "sales",
+          "nodeIndex": "Table",
+          "nodeLineageTag": "2b9fd532-c311-46bc-9632-aee8967338a9",
           "size": {
             "height": 104,
             "width": 234
